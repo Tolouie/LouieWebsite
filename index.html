@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <title>Louie Portfolio Website</title>
+        <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+        <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+        integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />  
+    </head>
+    <body>
+        <header>
+            <div class="logo">
+                <img src="assets/devjane.png" alt="">
+            </div>
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                    <li class="nav__item"><a href="#projects" class="nav__link">Projects</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                    <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <p class="react-reveal hero-cta"
+            style="animation-fill-mode: both; animation-duration: 1000ms; animation-delay: 1000ms; animation-iteration-count: 1; opacity: 1; animation-name: react-reveal-892922137274566-4;">
+            <span class="cta-btn cta-btn--hero"><a>Skills</a></span><span
+                class="cta-btn cta-btn--hero"><a>Projects</a></span><span class="cta-btn cta-btn--hero"><a>About</a></span><span
+                class="cta-btn cta-btn--hero"><a>Contact</a></span></p>
+                
+        <!-- Introduction -->
+        <section class="intro" id="home">
+            <h1 class="section__title section__title--intro">
+                Hi, I am <strong>Louie Cheng</strong>
+            </h1>
+            <p class="section__subtitle section__subtitle--intro">full-stack developer</p>
+            <img src="assets/dev-jane-01.jpg" alt="a picture of Louie Cheng">
+        </section>
+
+
+        <!-- Skills -->
+        <section class="my-skills" id="skills">
+            <h1 class="section__title section__title--skills">Skills</h1>
+
+        </section>
+
+
+        <!-- Projects -->
+        <section class="my-projects" id="projects">
+            <h2 class="section__title section__title--projects">Projects</h2>
+            <div class="projects"> 
+                <div class="project">
+                    <h3>Design + Development</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                        </p>
+                </div> <!-- / project -->
+
+                <div class="project">
+                    <h3>E-Commerce</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    </p>
+                </div> <!-- / project -->
+
+                <div class="project">
+                    <h3>WordPress</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    </p>
+                </div> <!-- / project -->
+            </div>
+        </section>
+
+ 
+        <!-- About me -->
+        <section class="about-me" id="about">
+            <header>
+                <h2 class="section__title section__title--about">About</h2>
+                <p class="section__subtitle section__subtitle--about"></p>
+        
+                <div class="about-me__body">
+                    <p></p>
+                    <p></p>
+                </div>
+        
+                <img src="assets/dev-jane-02.jpg" alt="Louie leaning against a bus">
+            </header>
+        </section>
+        
+   
+        <!-- Contact -->
+        <section class="contact" id="contact">
+            <div class="container">
+                <h2 class="react-reveal section-title"
+                    style="animation-fill-mode: both; animation-duration: 1000ms; animation-delay: 300ms; animation-iteration-count: 1; opacity: 1; animation-name: react-reveal-892922137274566-2;">
+                    Contact</h2>
+                <div class="react-reveal contact-wrapper"
+                    style="animation-fill-mode: both; animation-duration: 750ms; animation-delay: 500ms; animation-iteration-count: 1; opacity: 1; animation-name: react-reveal-892922137274566-3;">
+                    <form attribute="netlify-honeypot='bot-field'" method="POST" name="contact"><input type="hidden"
+                            name="bot-field"><input type="hidden" name="form-name" value="contact"><input type="text"
+                            class="form-input input" name="name" required="" placeholder="Name"><input type="email" required=""
+                            name="email" class=" input" placeholder="Email"><textarea required="" name="message" rows="6"
+                            class=" input" placeholder="Message"></textarea><button class="cta-btn cta-btn--hero"
+                            type="submit">Send</button></form>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer>
+            <p>Send me an email! <a href="mailto:louielouie0222@gmail.com" class="footer-link">louielouie0222@gmail.com</a>.</p>
+            <ul class="social-list">
+                <li class="social-list__item"><a class="social-list__link"
+                    href="https://www.codepen.io/" target="_blank" rel="noopener noreferrer">CODEPEN SOCIAL</a></a>
+                <li class="social-list__item"><a class="social-list__link" 
+                    href="https://www.github.com/" target="_blank" rel="noopener noreferrer">GITHUB SOCIAL</a></a>
+                <li class="social-list__item"><a class="social-list__link" 
+                    href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer">LINKEDIN SOCIAL</a></a>
+        </footer>
+    </body>
+</html>
